@@ -9,4 +9,4 @@
  echo get_avatar( $current_user->user_email, 32 );  // 32 là kích thước ảnh width: 32px; height:32px;	
 ?>
 
-wp_logout(); //Hàm đăng xuất chèn vào thẻ href
+wp_logout_url(); //Hàm đăng xuất chèn vào thẻ href
